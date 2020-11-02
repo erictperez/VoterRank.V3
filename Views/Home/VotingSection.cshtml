@@ -3,7 +3,7 @@
 *@
 @{
 }
-<h3 id="page-header">"Submitting As" Section</h3>
+<h1 id="page-header">VoterRank</h1>
 <form>
     <p>
         <label for="fname">First name:</label>
@@ -28,7 +28,7 @@
         <input type="text" id="license" name="license">
     </p>
     <p>
-        <label for="lname">Valid Driver's License:</label>
+        <label for="lname">Expiration Date of Driver's License:</label>
         <br>
         <input type="text" id="expdate" name="expdate">
     </p>
@@ -43,9 +43,7 @@
         <label for="candidate">Candidate</label>
         <input type="radio" id="voter" name="voter" value="voter">
         <label for="voter">Voter</label>
-        <div>
-            "Note: You may only be Administrator for elections you create!"
-        </div>
+
         <a asp-action="ThankYou">Submit</a>
 
     </p>
